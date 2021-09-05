@@ -31,7 +31,7 @@ public class WatchDog extends JavaPlugin {
 	 */
 	@Override
 	public void onEnable() {
-		new UpdateCheck(this).checkForUpdates();
+//		new UpdateCheck(this).checkForUpdates();
 		
 		saveDefaultConfig();
 		

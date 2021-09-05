@@ -1,16 +1,14 @@
 name: WatchDog
 main: com.widgetpowered.watchdog.WatchDog
-version: 1.3.1
+version: 2.0
 author: Widget Interactive
 website: https://widgetpowered.com
 description: Allows server staff to add players to a watchlist and receive notifications when they login
 dev-url: http://dev.bukkit.org/server-mods/watchdog/
-
 commands:
     wd:
         description: 'WatchDog plugin command'
         aliases: [watchdog]
-
 permissions:
     watchdog.*:
         default: false
